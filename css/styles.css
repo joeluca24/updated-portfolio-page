@@ -47,6 +47,10 @@
 *::after {
   box-sizing: border-box;
 }
+.sectionHeader{
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 html {
   font-family: sans-serif;
