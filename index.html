@@ -1,72 +1,250 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Joe luca  | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
 
-    <header>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <h1>Joseph  <span class="highlight">Luca</span></h1>
-      <p>aspiring web developer</p>
-      <i class="ion-code"></i>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Joe Luca </title>
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Joe Luca</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Joe Luca </h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Aspiring Web Developer.</h2>
+                <a class="btn btn-primary js-scroll-trigger" href="#about">About</a>
+            </div>
+        </div>
     </header>
-    <section class="section-about">
-      <h3>About me</h3>
-      <div class="col-1">
-        <img src="" alt="My picture" class="mugshot">
-        <ul class="social-icons">  
-          <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
-          <li><a href="https://github.com/joeluca24" target="_blank"><i class="ion-social-github"></i></a></li> <!--My new binvoice app added -->
-          <li><a href="https://evening-plains-51887.herokuapp.com/" target=" _blank"><i class= "ion-social-github"></a></li>
-        </ul>
-      </div>
-      <div class="col-2">
-        <p>Hi, there!  I'm Joe luca , an aspiring web developer from New Jersey.</p>
-        <p>I've dived into the vast of world development a little over a month 3 months ago , but I decided that I needed a career change, so I started looking up material on how to become a Web Developer, which is something that has always interested me.</p><br>
-        <p>This is, let's say, my first "big project," so please, bear with me, and keep coming back, this will improve as the weeks go by, and I learn more about these beautiful technologies.</p>
-      </div>
-      </section>
-      <section class="section-portfolio">
-        <h3>What I've been working on</h3>
-        <div class="grid-portfolio">
-          <img src="" alt="" class="screenshot">
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white-50"></h2>
+                    <p class="text-white-50">Hi there! I'm Joe luca , an aspiring web developer from New Jersey.</h2>
+                    <p class="text-white-50">
+                        I've dove into the vast of world development a little over 6 months ago , but I decided that I
+                        needed
+                        a career change, so I started looking up material on how to become a Web Developer, which is
+                        something that has
+                        always interested me
+                    </p>
+                </div>
+            </div>
+            <img class="img-fluid" src="assets/imgs/joe-luke.jpg" alt="boy and dog" />
         </div>
-        <div class="grid-portfolio">
-          <img src="" alt="" class="screenshot">
-        </div>
-        <div class="grid-portfolio">
-          <img src="" alt="" class="screenshot">
-        </div>
-        <div class="grid-portfolio">
-          <img src="" alt="" class="screenshot">
-        </div>
-      </section>
-    </div>
-    <section class="section-contact">
-      <h3>Contact Me</h3>
-      <form class="contact">
-        <div>
-          <label for="name">Name </label>
-          <input type="text" name="name" placeholder="Enter your name" id="name" required></input>
-        </div>
-        <div>
-          <label for="email">E-mail </label><input type="email" name="email" id="email" placeholder="Enter your e-mail" required></input>
-        </div>
-        <div class="msg">
-          <label for="message">Message </label><textarea name="message" id="message" placeholder="Your Message"></textarea>
-        </div>
-          <input type="submit" value="Send it!">
-
-      </form>
     </section>
-    <footer
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container">
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7"><a href="https://joeluca24.github.io/day-planner-js"><img
+                            class="img-fluid mb-3 mb-lg-0" src="assets/gifs/day planner.gif" alt="" /></a></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <a href="https://github.com/joeluca24/day-planner-js">Day Planner</a>
+                        <p class="text-black-50 mb-0">Day Planner is a fully functional app that lets you pan out your
+                            entire day with ease and javascript.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6"><a href=https://joeluca24.github.io/javascript-password-generator><img
+                            class="img-fluid" src="assets/gifs/password generator.gif" alt="" /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white"></h4><a
+                                    href="https://github.com/joeluca24/javascript-password-generator">Password
+                                    Generator</a>
+                                <p class="mb-0 text-white-50">Password generator is an applicaton that uses javascript
+                                    to genarate
+                                    a random password from 8-125 chracters..</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6"><a href="https://thawing-ridge-29544.herokuapp.com/notes"><img class="img-fluid"
+                            src="assets/gifs/note taker.gif" alt="" /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white"><a href=https://github.com/joeluca24/express-note-taker>Note
+                                        Taker</a></h4>
+                                <p class="mb-0 text-white-50">Note Taker is an app that lets you take a list of notes
+                                    and also let the user save them in the data base table.
+                                </p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7"><a href="https://nlamonaco86.github.io/Virtual_Art_Gallery"><img
+                            class="img-fluid mb-3 mb-lg-0" src="assets/gifs/project 1.gif" alt="" /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4><a href="https://github.com/nlamonaco86/Virtual_Art_Gallery/tree/master">Virtual Art Gallery
+                        </h4></a>
+                        <p class="text-black-50 mb-0">Virtual art gallery is an application that was
+                            a team developed application in which the user can search for diffrent generated magic cards
+                            from
+                            an api that holds every magic card art illustration</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6"><a href="https://joeluca24.github.io/readme-generator"><img class="img-fluid"
+                            src="assets/gifs/readme gen.gif" alt="" /></div>
+                <div class="col-lg-6"></a>
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white"><a href="https://github.com/joeluca24/readme-generator">Readme
+                                        Generator</h4></a>
+                                <p class="mb-0 text-white-50">Readme Generator is an application that
+                                    generates readmes it creates a file based on user input.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6"><a href="https://github.com/joeluca24/Team-Template-Engine/blob/master/showing%20app.gif"><img class="img-fluid" src="assets/gifs/team temp gengif.gif" alt="" /></div></a>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white"><a href="https://github.com/joeluca24/Team-Template-Engine">Template generator</h4></a>
+                                <p class="mb-0 text-white-50">Team Template generator uses nodejs to
+                                    create an html file that can display the user inputed team.
+                                </p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Signup-->
+    <section class="signup-section" id="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h1 class="text-black-50 mb-5">Contact me to talk code!</h1>
+                    <form class="form-inline d-flex">
+                        <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email"
+                            placeholder="Enter email address..." />
+                        <button class="btn btn-primary mx-auto" type="submit">Contact</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">1580 Elm St Brick NJ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"><a href="#!">Joeluca24@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">718-839-3594</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" target="_blank" rel="noreferrer"
+                    href="https://www.linkedin.com/in/joe-luca-9229b4b5/"><i class="fab fa-linkedin"></i></a>
+                <a class="mx-2" target="_blank" rel="noreferrer" href="https://github.com/joeluca24"><i
+                        class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container">Copyright © Joe Luca 2020</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
